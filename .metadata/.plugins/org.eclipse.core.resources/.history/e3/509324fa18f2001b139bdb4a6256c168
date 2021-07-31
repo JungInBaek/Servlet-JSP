@@ -1,0 +1,15 @@
+package com.edu.test;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+
+public class DispatcherTest2Servlet extends HttpServlet {
+	
+	@Override
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		
+	}
+}
