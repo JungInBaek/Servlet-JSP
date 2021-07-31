@@ -1,0 +1,2 @@
+[2021-07-29 15:56:50.179] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2021-07-29 16:15:33.504] [main] [error] [uncaught exception in main]: Failed to watch c:\Users\bji15\eclipse\jee-2021-03\eclipse for changes using fs.watch() (Error: EPERM: operation not permitted, watch, undefined)

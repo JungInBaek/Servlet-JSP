@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>edu</display-name>
+  
+  <!-- first -->
+  <!-- <servlet>
+  	<servlet-name>first</servlet-name>
+  	<servlet-class>com.edu.test.FirstServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>first</servlet-name>
+  	<url-pattern>/hello</url-pattern>
+  </servlet-mapping> -->
+  
+  <!-- second -->
+  <!-- <servlet>
+  	<servlet-name>second</servlet-name>
+  	<servlet-class>com.edu.test.SecondServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>second</servlet-name>
+  	<url-pattern>/second</url-pattern>
+  </servlet-mapping> -->
+  
+  <!-- third -->
+  <servlet>
+  	<servlet-name>third</servlet-name>
+  	<servlet-class>com.edu.test.ThirdServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>third</servlet-name>
+  	<url-pattern>/third</url-pattern>
+  </servlet-mapping>
+  
+  <!-- addInfo -->
+  <servlet>
+  	<servlet-name>addInfo</servlet-name>
+  	<servlet-class>com.edu.test.AdditionalInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>addInfo</servlet-name>
+  	<url-pattern>/addInfo/*</url-pattern>
+  </servlet-mapping>
+  
+  <!-- initParam -->
+  <servlet>
+  	<servlet-name>initParam</servlet-name>
+  	<servlet-class>com.edu.test.InitParamServlet</servlet-class>
+  	<initParam>
+  		<param-name>id</param-name>
+  		<param-value>guest</param-value>
+  	</initParam>
+  	<init-param>
+  		<param-name>password</param-name>
+  		<param-value>1004</param-value>
+  	</init-param>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>initParam</servlet-name>
+  	<url-pattern>/initParamTest</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
