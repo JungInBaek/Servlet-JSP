@@ -55,7 +55,7 @@
   </servlet-mapping> -->
   
   <!-- third -->
-  <servlet>
+  <!-- <servlet>
   	<servlet-name>third</servlet-name>
   	<servlet-class>com.edu.test.ThirdServlet</servlet-class>
   </servlet>
@@ -63,7 +63,7 @@
   <servlet-mapping>
   	<servlet-name>third</servlet-name>
   	<url-pattern>/third</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
   
   <!-- addInfo -->
   <servlet>
