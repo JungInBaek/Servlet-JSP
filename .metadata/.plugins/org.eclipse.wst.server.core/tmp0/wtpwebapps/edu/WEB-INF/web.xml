@@ -7,6 +7,31 @@
   	<param-value>/WEB-INF/context.xml</param-value>
   </context-param>
   
+  <!-- Filter -->
+  <filter>
+  	<filter-name>flow1</filter-name>
+  	<filter-class>com.edu.test.FlowFilterOne</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>flow1</filter-name>
+  	<url-pattern>/second</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>flow2</filter-name>
+  	<filter-class>com.edu.test.FlowFilterTwo</filter-class>
+  	<init-param>
+  		<param-name>en</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>flow2</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
   <!-- first -->
   <!-- <servlet>
   	<servlet-name>first</servlet-name>
