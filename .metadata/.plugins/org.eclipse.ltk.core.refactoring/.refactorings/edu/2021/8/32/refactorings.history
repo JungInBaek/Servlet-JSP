@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.edu.test.TestSessionAtrributeListener.java&apos; to &apos;TestSessionAttributeListener.java&apos;&#x0D;&#x0A;- Original project: &apos;edu&apos;&#x0D;&#x0A;- Original element: &apos;com.edu.test.TestSessionAtrributeListener.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.edu.test.TestSessionAttributeListener.java&apos;" description="Rename compilation unit &apos;TestSessionAtrributeListener.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.edu.test{TestSessionAtrributeListener.java" name="TestSessionAttributeListener.java" references="false" stamp="1627893299031" version="1.0"/>
+</session>

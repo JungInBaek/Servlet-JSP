@@ -1,0 +1,9 @@
+package com.edu.test;
+
+import javax.servlet.http.HttpSessionAttributeListener;
+
+public class TestSessionAttributeListener implements HttpSessionAttributeListener {
+	public TestSessionAttributeListener() {
+		
+	}
+}
