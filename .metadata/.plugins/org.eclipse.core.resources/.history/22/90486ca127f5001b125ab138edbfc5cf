@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+	<%
+		int total = out.getBufferSize();
+		out.print("첫번째 텍스트입니다.");
+		out.clearBuffer();
+	%>
+</body>
+</html>
