@@ -35,4 +35,3 @@
     	stmt.close();
     	conn.close();	//	연결 해제
     %>
-    OK

@@ -34,5 +34,4 @@
     	//	5. 자원해제
     	stmt.close();
     	conn.close();	//	연결 해제
-    %>
-    OK
+    %>OK
