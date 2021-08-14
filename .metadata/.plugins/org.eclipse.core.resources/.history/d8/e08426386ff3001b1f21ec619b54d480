@@ -1,7 +1,0 @@
-package com.edu.test;
-
-import javax.servlet.ServletContextListener;
-
-public class TestServletContextListener implements ServletContextListener {
-	
-}
