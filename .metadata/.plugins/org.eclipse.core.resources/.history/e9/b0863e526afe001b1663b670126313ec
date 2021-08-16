@@ -1,0 +1,9 @@
+package com.edu.biz;
+
+public class MemberService {
+	MemberDAO dao = new MemberDAO();
+	
+	public void memberInsert(Member member) {
+		dao.insertMember(member);
+	}
+}
